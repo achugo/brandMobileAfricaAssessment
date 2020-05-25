@@ -147,8 +147,11 @@ export const Login = (props) => {
       .login(data)
       .then((response) => {
         props.setUser(response);
-        props.url ? props.history.push(props.url) : props.history.push("/");
+        props.url !== "/login"
+          ? props.history.push(props.url)
+          : props.history.push("/");
         props.isBusy(false);
+        window.location.reload();
       })
       .catch((err) => {
         statusMessageHandler(err.message, failure);
