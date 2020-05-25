@@ -48,8 +48,8 @@ const EmployeeRecords = ({ employees, deleteEmployee, history }) => {
             </tr>
           </thead>
           <tbody>
-            {employeeList &&
-              employeeList.map((employee, index) => {
+            {employees &&
+              employees.map((employee, index) => {
                 return (
                   <tr>
                     <th scope="row">{index + 1}</th>

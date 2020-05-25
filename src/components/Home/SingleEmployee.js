@@ -101,7 +101,7 @@ const SingleEmployee = ({ employees }) => {
     localStorage.setItem("employees", JSON.stringify(filteredEmployees));
     // ReplaceEmployeeRecords(filteredEmployees);
     history.push("/");
-    //window.location.reload();
+    window.location.reload();
   };
   return (
     <div className="container-fluid px-0">
