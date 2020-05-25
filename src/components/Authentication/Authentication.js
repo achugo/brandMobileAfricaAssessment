@@ -264,7 +264,7 @@ const RegisterForm = (props) => {
         <form onSubmit={props.submitForm}>
           <div className="text-center">
             <img
-              src="./images/logo.svg"
+              src="https://brand-mobile-assets.s3-eu-west-1.amazonaws.com/Logo+(1).png"
               alt="image log"
               className="img-fluid mb-3"
             />
