@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Route, Link, Switch, Redirect, Router } from "react-router-dom";
-import { logout } from "./sideEffects/apis/auth";
 import "../src/scss/style.css";
 import Home from "./components/Home/Home";
 import ConnectedRegister, {
@@ -22,7 +21,7 @@ const getUserFromStorage = () => {
 };
 
 const App = (props) => {
-  const search = props.history.location.search;
+  const search = history.location.search;
   const url = search ? search.substring(search.indexOf("=") + 1) : "";
   const userFromLocal = getUserFromStorage();
   if (!props.user) {
@@ -65,7 +64,7 @@ const App = (props) => {
                 exact
                 path="/employee/:id"
                 render={() =>
-                  user ? (
+                  user && localStorage.getItem("token") ? (
                     <SingleEmployee />
                   ) : (
                     <Redirect to="/login?redirectUrl=/" />
