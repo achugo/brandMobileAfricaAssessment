@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Rubik regular";
+  src: url("../fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: "open sans regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "open sans light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
+$rubik-normal: "Rubik regular";
+$sans-regular: "open sans regular";
+$sans-light: "open sans light";

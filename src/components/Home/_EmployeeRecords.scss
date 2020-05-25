@@ -1,0 +1,25 @@
+.employee__records {
+  .view {
+    border: 0;
+    outline: 0;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: #440a9f;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .delete {
+    border: 0;
+    outline: 0;
+    margin: 1em 1em 1em 0;
+    height: 40px;
+    padding: 0 15px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+}

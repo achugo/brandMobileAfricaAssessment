@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "Rubik regular";
+  src: url("../fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: "open sans regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "open sans light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
+body {
+  font-family: "Rubik regular";
+}
+
+.custom-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.register-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.register-wrapper .bg-section {
+  position: relative;
+}
+
+.register-wrapper .form-section {
+  text-align: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register-wrapper .form-section form {
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+}
+
+.register-wrapper .form-section form h6.below-image {
+  font-family: "Rubik regular";
+  color: rgba(77, 79, 92, 0.5);
+}
+
+.register-wrapper .form-section form .terms {
+  color: rgba(77, 79, 92, 0.5);
+}
+
+.register-wrapper .form-section form .terms span {
+  position: relative;
+  left: 30px;
+  top: 4px;
+  font-size: 13px;
+}
+
+.register-wrapper .form-section form .terms input {
+  position: absolute;
+}
+
+.register-wrapper .form-section form input {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom: 1px solid rgba(77, 79, 92, 0.5);
+  padding: 0.5em 1em;
+  width: 100%;
+  margin: 0.5em 0;
+  color: rgba(77, 79, 92, 0.5);
+}
+
+.register-wrapper .form-section form input::-webkit-input-placeholder {
+  color: rgba(77, 79, 92, 0.5);
+  font-size: 12px;
+}
+
+.register-wrapper .form-section form input:-ms-input-placeholder {
+  color: rgba(77, 79, 92, 0.5);
+  font-size: 12px;
+}
+
+.register-wrapper .form-section form input::-ms-input-placeholder {
+  color: rgba(77, 79, 92, 0.5);
+  font-size: 12px;
+}
+
+.register-wrapper .form-section form input::placeholder {
+  color: rgba(77, 79, 92, 0.5);
+  font-size: 12px;
+}
+
+.register-wrapper .form-section form input:focus {
+  outline: none;
+}
+
+.register-wrapper .form-section form select {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0.5px 10px;
+  margin: 1.5em 0;
+}
+
+.register-wrapper .form-section form button {
+  margin: 1em 0;
+  width: 150px;
+  border: none;
+  background-color: #3ca5ff;
+  padding: 0.5em 1em;
+  color: white;
+  border-radius: 5px;
+}
+
+.login-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.login-wrapper .bg-section {
+  position: relative;
+}
+
+.login-wrapper .form-section {
+  text-align: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-wrapper .form-section form {
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+}
+
+.login-wrapper .form-section form h6.below-image {
+  font-family: "Rubik regular";
+  color: rgba(77, 79, 92, 0.5);
+}
+
+.login-wrapper .form-section form .terms {
+  color: rgba(77, 79, 92, 0.5);
+}
+
+.login-wrapper .form-section form .terms span {
+  position: relative;
+  left: 30px;
+  top: 4px;
+  font-size: 12px;
+}
+
+.login-wrapper .form-section form .terms input {
+  position: absolute;
+}
+
+.login-wrapper .form-section form input {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom: 1px solid rgba(77, 79, 92, 0.5);
+  padding: 0.5em 1em;
+  width: 100%;
+  margin: 0.5em 0;
+  color: rgba(77, 79, 92, 0.5);
+}
+
+.login-wrapper .form-section form input::-webkit-input-placeholder {
+  color: rgba(77, 79, 92, 0.5);
+  font-size: 13px;
+}
+
+.login-wrapper .form-section form input:-ms-input-placeholder {
+  color: rgba(77, 79, 92, 0.5);
+  font-size: 13px;
+}
+
+.login-wrapper .form-section form input::-ms-input-placeholder {
+  color: rgba(77, 79, 92, 0.5);
+  font-size: 13px;
+}
+
+.login-wrapper .form-section form input::placeholder {
+  color: rgba(77, 79, 92, 0.5);
+  font-size: 13px;
+}
+
+.login-wrapper .form-section form input:focus {
+  outline: none;
+}
+
+.login-wrapper .form-section form select {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0.5px 10px;
+  margin: 1.5em 0;
+}
+
+.login-wrapper .form-section form button.login {
+  margin: 1em 1em;
+  width: 150px;
+  border: none;
+  background-color: #3ca5ff;
+  padding: 0.5em 1em;
+  color: white;
+  border-radius: 5px;
+}
+
+.login-wrapper .form-section form button.signup {
+  margin: 1em 1em;
+  width: 150px;
+  border: none;
+  border: 1px solid #3ca5ff;
+  background-color: transparent;
+  color: #3ca5ff;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.navigation-nav {
+  -webkit-box-shadow: -2px 4px 10px 0px #00000059;
+          box-shadow: -2px 4px 10px 0px #00000059;
+  position: relative;
+}
+
+.navigation-nav img {
+  width: 11%;
+}
+
+.navigation-nav button {
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  background-color: #440a9f;
+  padding: 0.7em 1em;
+  max-width: 100px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+}
+/*# sourceMappingURL=style.css.map */

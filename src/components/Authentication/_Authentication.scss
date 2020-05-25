@@ -1,0 +1,175 @@
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .bg-section {
+    position: relative;
+  }
+
+  .form-section {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    // bottom: 8%;
+    justify-content: center;
+
+    form {
+      max-width: 400px;
+      width: 100%;
+      text-align: left;
+
+      h6.below-image {
+        font-family: $rubik-normal;
+        color: rgba(77, 79, 92, 0.5);
+      }
+
+      .terms {
+        color: rgba(77, 79, 92, 0.5);
+        span {
+          position: relative;
+          left: 30px;
+          top: 4px;
+          font-size: 13px;
+        }
+        input {
+          position: absolute;
+        }
+      }
+
+      input {
+        border-top: 0px !important;
+        border-left: 0px !important;
+        border-right: 0px !important;
+        border-bottom: 1px solid $edms-input-border;
+        padding: 0.5em 1em;
+        width: 100%;
+        margin: 0.5em 0;
+        color: rgba(77, 79, 92, 0.5);
+
+        &::placeholder {
+          color: rgba(77, 79, 92, 0.5);
+          font-size: 12px;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      select {
+        width: 100%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 0.5px 10px;
+        margin: 1.5em 0;
+      }
+
+      button {
+        margin: 1em 0;
+        width: 150px;
+        border: none;
+        background-color: $edms-blue;
+        padding: 0.5em 1em;
+        color: white;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .bg-section {
+    position: relative;
+  }
+
+  .form-section {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    // bottom: 8%;
+    justify-content: center;
+
+    form {
+      max-width: 400px;
+      width: 100%;
+      text-align: left;
+
+      h6.below-image {
+        font-family: $rubik-normal;
+        color: rgba(77, 79, 92, 0.5);
+      }
+
+      .terms {
+        color: rgba(77, 79, 92, 0.5);
+        span {
+          position: relative;
+          left: 30px;
+          top: 4px;
+          font-size: 12px;
+        }
+        input {
+          position: absolute;
+        }
+      }
+
+      input {
+        border-top: 0px !important;
+        border-left: 0px !important;
+        border-right: 0px !important;
+        border-bottom: 1px solid $edms-input-border;
+        padding: 0.5em 1em;
+        width: 100%;
+        margin: 0.5em 0;
+        color: rgba(77, 79, 92, 0.5);
+
+        &::placeholder {
+          color: rgba(77, 79, 92, 0.5);
+          font-size: 13px;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      select {
+        width: 100%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 0.5px 10px;
+        margin: 1.5em 0;
+      }
+
+      button.login {
+        margin: 1em 1em;
+        width: 150px;
+        border: none;
+        background-color: $edms-blue;
+        padding: 0.5em 1em;
+        color: white;
+        border-radius: 5px;
+      }
+      button.signup {
+        margin: 1em 1em;
+        width: 150px;
+        border: none;
+        border: 1px solid $edms-blue;
+        background-color: transparent;
+        color: $edms-blue;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+      }
+    }
+  }
+}
