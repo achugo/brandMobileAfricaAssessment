@@ -14,7 +14,7 @@ const FormGroup = (props) => {
 
   const fetchStates = async () => {
     const state_ = await api.getAll(
-      "http://locationsng-api.herokuapp.com/api/v1/lgas"
+      "https://locationsng-api.herokuapp.com/api/v1/lgas"
     );
     setState(state_);
   };
